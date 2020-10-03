@@ -1,0 +1,22 @@
+#menu					/*divID，定义菜单的背景颜色*/
+{
+	background:#4A4AFF;
+}
+.title					/*div类，定义主菜单的样式*/
+{
+	margin:10px;		/*主菜单之间的边距*/
+	font-weight:bold;	/*主菜单字体加粗*/
+	font-size:20px;		/*主菜单字体大小*/
+	color:white;		/*主菜单字体颜色*/
+	cursor:pointer;		/*鼠标经过出现小手指*/
+}
+.content				/*div类，定义子菜单的样式*/
+{
+	margin:10px;		/*子菜单之间的边距*/
+	margin-left:30px;	/*子菜单的左边距设置*/
+	font-size:18px;		/*主菜单字号大小*/
+}
+a						/*子菜单链接字体的颜色*/
+{
+	color:white;
+}

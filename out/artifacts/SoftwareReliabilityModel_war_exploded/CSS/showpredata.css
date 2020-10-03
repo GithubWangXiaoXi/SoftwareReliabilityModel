@@ -1,0 +1,25 @@
+.showpredata			/*div类，设置展示数据窗体的样式*/
+{
+	height:20%;			/*展示数据窗体占总窗体的高度比*/
+	width:70%;			/*展示数据窗体占总窗体的宽度比*/
+	margin:0px auto;	/*盒子居中*/
+}
+.showpredata_title		/*div类，设置展示数据窗体标题的样式*/
+{
+	height:8%;			/*展示数据窗体占总窗体标题的高度比*/
+	width:40%;			/*展示数据窗体占总窗体标题的宽度比*/
+	float:left;			/*向左浮动*/
+	margin:1%;			/*外边界设置*/
+	text-align:right;	/*字体向右对齐*/
+	font-size:20px;		/*设置字体大小*/
+	font-weight:bold;	/*字体加粗*/
+}
+.showpredata_content	/*div类，设置展示数据窗体内容的样式*/
+{
+	height:8%;			/*展示数据窗体占总窗体内容的高度比*/
+	width:40%;			/*展示数据窗体占总窗体内容的宽度比*/
+	float:left;			/*向左浮动*/
+	margin:1%;			/*外边界设置*/
+	text-align:left;	/*字体向左对齐*/
+	font-size:20px;		/*设置字体大小*/
+}

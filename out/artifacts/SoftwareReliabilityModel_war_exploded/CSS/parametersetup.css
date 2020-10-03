@@ -1,0 +1,19 @@
+.parametersetup_title	/*div绫伙紝璁剧疆鍙傛暟杈撳叆绐椾綋鏍囬鐨勬牱寮�*/
+{
+	height:8%;			/*鍙傛暟杈撳叆绐椾綋鏍囬鍗犳�荤獥浣撶殑楂樺害姣�*/
+	width:25%;			/*鍙傛暟杈撳叆绐椾綋鏍囬鍗犳�荤獥浣撶殑瀹藉害姣�*/
+	float:left;			/*鍚戝乏娴姩*/
+	margin:1%;			/*澶栬竟鐣岃缃�*/
+	text-align:right;	/*瀛椾綋鍚戝彸瀵归綈*/
+	font-size:18px;		/*璁剧疆瀛椾綋澶у皬*/
+	font-weight:bold;	/*瀛椾綋鍔犵矖*/
+}
+.parametersetup_content		/*div绫伙紝璁剧疆鍙傛暟杈撳叆绐椾綋鍐呭鐨勬牱寮�*/
+{
+	height:8%;			/*鍙傛暟杈撳叆绐椾綋鍐呭鍗犳�荤獥浣撶殑楂樺害姣�*/
+	width:70%;			/*鍙傛暟杈撳叆绐椾綋鍐呭鍗犳�荤獥浣撶殑瀹藉害姣�*/
+	float:left;			/*鍚戝乏娴姩*/
+	margin:1%;			/*澶栬竟鐣岃缃�*/
+	text-align:left;	/*瀛椾綋鍚戝乏瀵归綈*/
+	font-size:18px;		/*璁剧疆瀛椾綋澶у皬*/
+}

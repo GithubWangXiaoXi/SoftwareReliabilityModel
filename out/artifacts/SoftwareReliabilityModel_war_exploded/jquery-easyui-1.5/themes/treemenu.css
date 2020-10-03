@@ -1,0 +1,61 @@
+.top{
+height:80px;
+width:100%;
+background-image:url(image/top.png);
+}
+.tree{
+font-size:18px;
+font-weight:bold;
+height:40px;
+}
+.tree-title {
+  font-size: 18px;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: top;
+  white-space: nowrap;
+  padding: 0 2px;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 3px;
+  margin-left: 15px;
+}
+.tree-node {
+  height: 50px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size:18px;
+  background:#fdf7fb;
+  border-style: solid;
+  border-color: #c0c0c0;
+  border-width: 0px 0px 1px 1px;
+}
+.tree-node-hover {
+  background: #eaf2ff;
+  color: #000000;
+}
+.panel-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #004080;
+  height: 38px;
+  line-height:38px;
+    margin-left: 55px;
+}
+.tree-node-selected {
+  background: #ffe48d;
+  color: #000000;
+}
+.tabs-inner{
+height:40px !important;
+line-height:40px !important;
+}
+.tabs-title{
+height:40px !important;
+line-height:40px !important;
+font-size:18px !important;
+}
+.tabs{
+height:40px !important;
+line-height:40px !important;
+}
