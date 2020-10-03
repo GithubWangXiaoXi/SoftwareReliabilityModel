@@ -1,0 +1,32 @@
+.show_tab_menu		/*div类，设置小tab菜单的大小*/
+{
+	float:left;		/*小tab页菜单紧贴左边*/
+	height:95%;		/*小tab菜单占主窗口的高度比*/
+	width:19%;		/*小tab菜单占主窗口的宽度比*/
+	margin:0px auto;
+
+}
+.show_tab_menu li	/*div类，每个小tab页菜单样式*/
+{   
+	height:6%; 	 	/*每个小tab页菜单占小tab菜单的高度比*/
+	line-height:200%;	/*每个小tab页菜单字体垂直居中*/
+	width:100%; 	/*每个小tab页菜单占小tab菜单的宽度比*/
+	display:block;	/*每个小tab页菜单前面没有点符号*/
+	cursor:pointer;		/*鼠标经过时变为手指形状*/
+	background:#0f4679;	/*每个小tab页菜单背景颜色*/
+	text-align:center; 	/*每个小tab页菜单字体居中*/
+	color:#ffffff; 		/*每个小tab页菜单字体大中*/
+	font-weight:bold;	/*每个小tab页菜单字体加粗*/
+	font-size:20px;
+} 
+.show_tab_menu li.hover	/*div类，被点中的小tab页菜单样式*/
+{
+	background:#326ea5; /*被点中的小tab页菜单背景颜色*/
+}
+.show_tab_content		/*div类，设置小tab页内容框样式*/
+{
+	border:1px solid #326ea5;	/*小tab页内容框的边缘样式*/
+	height:100%;		/*小tab页内容框占小tab页框的高度比*/	
+	width:80%;			/*小tab页内容框占小tab页框的高度比*/
+	float:left;			/*小tab页内容框紧贴左边*/
+}

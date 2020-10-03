@@ -1,0 +1,31 @@
+table			/*鎵�鏈夎〃鏍肩殑鏍峰紡*/
+{
+	font-family:"Times New Roman","瀹嬩綋"; /*鎵�鏈夎〃鏍肩殑瀛椾綋*/
+	border:2px #326ea5 solid;	/*鎵�鏈夎〃鏍肩殑杈圭紭鏍峰紡*/
+	text-align:center;			/*鎵�鏈夎〃鏍肩殑瀛椾綋灞呬腑*/
+	width:90%;					/*鎵�鏈夎〃鏍煎崰鏁翠釜鐩掑瓙鐨勫搴︽瘮*/
+	margin:0px auto;			/*鎵�鏈夎〃鏍煎眳涓�*/
+	font-size:16px;
+}
+.altrow				/*table绫伙紝鐢ㄤ簬琛ㄦ牸闅旇鍙樿壊*/
+{
+	background-color:"#f9f9f9";	/*璁剧疆琛ㄦ牸闅旇鍙樿壊鐨勯鑹�*/
+}
+.contrast				/*table绫伙紝鐢ㄤ簬鏁版嵁瀵规瘮琛ㄦ牸*/
+{
+	width:90%;			/*鏁版嵁瀵规瘮琛ㄦ牸鍗犳暣涓洅瀛愮殑瀹藉害姣�*/
+}
+.contrast tr:hover		/*table绫伙紝榧犳爣缁忚繃琛ㄦ牸鏃剁殑鏍峰紡*/
+{
+	background-color: #326ea5;	/*榧犳爣缁忚繃琛ㄦ牸鏃舵暣琛岀殑鑳屾櫙棰滆壊*/
+	color:#004080;					/*榧犳爣缁忚繃琛ㄦ牸鏃舵暣琛岀殑瀛椾綋棰滆壊*/
+}
+td
+{
+	border:1px #326ea5 dashed;	/*琛ㄤ腑鐨勮竟缂�*/
+}
+th
+{
+	border:1px #326ea5 solid;	/*琛ㄤ腑鐨勮竟缂�*/
+	font-size:16px;
+}

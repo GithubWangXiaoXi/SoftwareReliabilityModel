@@ -1,0 +1,33 @@
+#loader_container		/*divID，执行等待透明盒子的样式*/
+{
+   text-align:center;	/*执行等待透明盒子的文字居中*/
+   position:absolute;	/*执行等待透明盒子是一个抽象型的盒子*/
+   padding-top:300px;	/*执行等待透明盒子的上内边距*/
+   height:100%;			/*执行等待透明盒子撑满整个盒子*/
+   width:100%;
+}
+#loader					/*divID，执行等待容器的样式*/
+{
+	width:200px;			/*执行等待容器的宽度*/
+	font-size:15px;		/*执行等待容器的字体大小*/
+	color: #ffffff;		/*执行等待容器的字体颜色*/
+	background-color:#0f4679;	/*执行等待容器的背景颜色*/
+	padding:10px 0 16px 0;	/*执行等待容器的内边距*/
+	margin:0 auto;		/*执行等待容器居中*/
+	border:1px solid #326ea5;	/*执行等待容器的边缘样式*/
+}
+#loader_bg				/*divID，执行等待滚动框的样式*/
+{
+	background-color: #326ea5;	/*执行等待滚动框的样式*/
+	position:relative;			/*执行等待滚动框的样式*/
+	top:8px;			/*执行等待滚动框的上边距*/
+	height:10px;		/*执行等待滚动框的高度*/
+	width:100%;			/*执行等待滚动框的宽度比*/
+}
+#progress				/*divID，执行等待滚动条的样式*/
+{
+	position:relative;	/*执行等待滚动条是一个相对型盒子*/
+	height:100%;		/*执行等待滚动条的样式*/
+	width:20%;			/*执行等待滚动条的样式*/
+	background-color: #fff;	/*执行等待滚动条的样式*/
+}

@@ -1,0 +1,35 @@
+#main_tab			/*divID锛岃缃暣涓富tab椤垫鐨勫ぇ灏�*/
+{
+	height:95%;		/*涓籺ab椤垫鍗犱富绐楀彛鐨勯珮搴︽瘮*/
+	width:100%;		/*涓籺ab椤垫鍗犱富绐楀彛鐨勫搴︽瘮*/
+} 
+.main_tab_menu		/*div绫伙紝璁剧疆涓籺ab鑿滃崟鐨勫ぇ灏�*/	
+{ 
+	height:6%; 		/*涓籺ab鑿滃崟鍗犱富绐楀彛鐨勯珮搴︽瘮*/
+	width:100%; 	/*涓籺ab鑿滃崟鍗犱富绐楀彛鐨勫搴︽瘮*/
+	background:#326ea5;
+} 
+.main_tab_menu a	/*div绫伙紝姣忎釜涓籺ab椤佃彍鍗曟牱寮�*/
+{
+	height:100%; 	/*姣忎釜涓籺ab椤佃彍鍗曞崰涓籺ab鑿滃崟鐨勯珮搴︽瘮*/
+	width:19%; 		/*姣忎釜涓籺ab椤佃彍鍗曞崰涓籺ab鑿滃崟鐨勫搴︽瘮*/
+	display:block;	/*姣忎釜涓籺ab椤佃彍鍗曞墠闈㈡病鏈夌偣绗﹀彿*/
+	float:left; 	/*姣忎釜涓籺ab椤佃彍鍗曠揣璐村乏杈�*/ 	
+	cursor:pointer;	/*榧犳爣缁忚繃鏃跺彉涓烘墜鎸囧舰鐘�*/
+	background:#326ea5;	/*姣忎釜涓籺ab椤佃彍鍗曡儗鏅鑹�*/
+	text-align:center; 	/*姣忎釜涓籺ab椤佃彍鍗曞瓧浣撳眳涓�*/
+	line-height:200%; /*姣忎釜涓籺ab椤佃彍鍗曞瓧浣撳瀭鐩村眳涓�*/
+	color:#ffffff; 		/*姣忎釜涓籺ab椤佃彍鍗曞瓧浣撳ぇ涓�*/
+	font-weight:bold;	/*姣忎釜涓籺ab椤佃彍鍗曞瓧浣撳姞绮�*/
+	font-size: 20px;
+} 
+.main_tab_menu a.hover	/*div绫伙紝琚偣涓殑涓籺ab椤佃彍鍗曟牱寮�*/
+{  
+	background:#0f4679;  /*琚偣涓殑涓籺ab椤佃彍鍗曡儗鏅鑹�*/
+} 
+.main_tab_content	/*div绫伙紝璁剧疆涓籺ab椤靛唴瀹规鏍峰紡*/
+{ 
+	border:1px  #326ea5; /*涓籺ab椤靛唴瀹规鐨勮竟缂樻牱寮�*/
+	height:95%;		/*涓籺ab椤靛唴瀹规鍗犱富tab椤垫鐨勯珮搴︽瘮*/
+    font-size: 20px;
+}

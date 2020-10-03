@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SoftwareReliabilityModel:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SoftwareReliabilityModel_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SoftwareReliabilityModel" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="SoftwareReliabilityModel/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,24 @@
+#usertable {
+	text-align: center;
+	width: 60%;
+	margin:0 auto;
+	/* border:1px solid #ccc; */
+}
+#usertable caption {
+	font-size:20px;
+	font-weight:700;
+}
+#loginform {
+	text-align:center;
+	
+}
+#loginform input{
+	display:block;
+	width:200px;
+	height:40px;
+	margin:0 auto;
+}
+#loginform button {
+	
+	
+}

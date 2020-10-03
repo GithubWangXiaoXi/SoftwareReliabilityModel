@@ -1,0 +1,125 @@
+body				/*所有页面的滚动条显示设置*/
+{
+	overflow:hidden;
+}
+a					/*所有超链接不要下划线*/
+{
+	text-decoration:none;
+	height:30px
+}
+img					/*所有图片缩放以高位定位标准，不需要边框*/
+{
+	max-height:100%;
+	border:"0";
+}
+div
+{
+	font-family:"Times New Roman","宋体";
+	font-size:18px;
+}
+p					/*所有段落开头缩进2个字*/
+{
+	text-indent:2em;
+	font-family:"Times New Roman","宋体";
+	font-size:18px;
+	line-height:30px;
+}
+iframe				/*所有子页面撑满整个盒子，不需要边框*/
+{
+	height:100%;
+	width:100%;
+	border:0px;
+}
+input				/*设置表单文本框的宽度*/
+{
+	width:200px;
+	height:25px;
+	font-size:18px;
+	autocomplete:off;
+	
+}
+select
+{
+	width:200px;
+	height:30px;
+	font-size:18px;
+	autocomplete:off;
+}
+.radio
+{
+	width:20px;
+}
+
+.titlename		/*div类，设置主页面标题的样式*/
+{
+	height:2%;		/*标题占主窗口的高度比*/
+	width:100%;		/*标题占主窗口的宽度比*/
+	font-weight:bold;	/*标题字体加粗*/
+	font-size:25px;		/*标题字体大小*/
+	text-align:center;	/*标题居中*/
+    color:#000040;
+}
+.scrollbox	/*div类，滚动盒子的样式*/
+{
+	height:92%;		/*滚动盒子占主窗口的高度比*/
+	width:100%;		/*滚动盒子占主窗口的高度比*/
+	overflow:auto;	/*允许滚动盒子滚动*/
+	font-size:18px;		/*滚动盒子字体大小*/
+}
+.subtitle	/*div类，设置小标题的样式*/
+{
+	height:3%;			/*小标题占显示框的高度比*/
+	margin:1%;			/*小标题的边距*/
+	font-weight:bold;	/*小标题字体加粗*/
+	font-size:22px;		/*小标题字体大小*/
+	text-align:center;	/*小标题字体居中*/
+}
+.subtitle2	/*div类，小标题2的样式，在showpredata.jsp页面的显示当前数据中用到*/
+{
+	height:5%;			/*小标题2占显示框的高度比*/
+	margin:3%;			/*小标题2的边距*/
+	font-weight:bold;	/*小标题2字体加粗*/
+	font-size:18px;		/*小标题2字体大小*/
+	text-align:center;	/*小标题2字体居中*/
+	color:#326ea5;		/*小标题2字体颜色*/
+}
+.currentdata			/*div类，当前数据框的样式，在show.jsp页面的显示当前数据信息中用到*/
+{
+	width:800px;		/*当前数据框的宽度*/
+	border:2px #326ea5 solid;	/*当前数据框的边缘设置*/
+	padding:20px;		/*当前数据框的内边距设置*/
+	font-weight:bold;	/*当前数据框的字体加粗*/
+	font-size:18px;		/*当前数据框的字体大小*/
+	margin:0px auto;	/*当前数据框的整个盒子居中*/
+}
+.changedata			/*div类，替换数据框的样式，在showpredata.jsp页面的替换数据信息中用到*/
+{
+	height:25%;			/*替换数据框占显示框的高度比*/
+	width:90%;			/*替换数据框占显示框的宽度比*/
+	border:1px #326ea5 solid;	/*替换数据框的边缘设置*/
+	font-weight:bold;	/*替换数据框字体加粗*/
+	font-size:18px;		/*替换数据框字体大小*/
+	text-align:center;	/*替换数据框的字体居中*/
+}
+.setup				/*div类，参数设置框的样式*/
+{
+	width:80%;					/*参数设置框占显示框的宽度比*/
+	border:2px #326ea5 solid;	/*参数设置框的边缘设置*/
+	padding:20px;				/*参数设置框的内边距设置*/
+	margin:0px auto;			/*参数设置框的字体居中*/
+}
+.note				/*div类，注释的样式，在模型结果显示介绍性能参数时用到*/
+{	
+	width:100%;
+	font-size:15px;		/*注释的字体大小*/
+	text-align:center;	/*注释的字体居中*/
+	color:#326ea5;		/*注释的字体颜色*/
+}
+.addsubmodel			/*div类，增加删除模型盒子*/
+{
+	width:95%;			/*增加删除模型盒子占显示框的宽度比*/
+	text-align:center;	/*字体居中*/
+	font-size:18px;		/*字体大小*/
+	font-weight:bold;	/*字体加粗*/
+	margin:2%;			/*外边界设置*/
+}

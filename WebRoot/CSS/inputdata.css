@@ -1,0 +1,38 @@
+.inputdatasetup		/*div类，设置输入数据窗体的样式*/
+{
+	height:90%;		/*输入数据窗体占主窗口的高度比*/
+	width:70%;		/*输入数据窗体占主窗口的宽度比*/
+	text-align:center;	/*字体居中*/
+	border:2px #0f4679 solid;	/*边界样式*/
+	margin:0px auto;	/*外边界设置*/
+}
+.inputdatasetup_title	/*div类，设置输入数据窗体标题的样式*/
+{
+	height:5%;			/*输入数据窗体标题占主窗口的高度比*/
+	width:40%;			/*输入数据窗体标题占主窗口的宽度比*/
+	float:left;			/*向左浮动*/
+	margin:1%;			/*外边界设置*/
+	text-align:right;	/*字体向右对齐*/
+	font-size:18px;		/*设置字体大小*/
+	font-weight:bold;	/*字体加粗*/
+}
+.inputdatasetup_content	/*div类，设置输入数据窗体内容的样式*/
+{
+	height:5%;			/*输入数据窗体占主窗口的高度比*/
+	width:40%;			/*输入数据窗体占主窗口的宽度比*/
+	float:left;			/*向左浮动*/
+	margin:1%;			/*外边界设置*/
+	text-align:left;	/*字体向左对齐*/
+	font-size:18px;		/*设置字体大小*/
+}
+.inputdatasetup_scrollbox	/*div类，设置输入数据滚动窗体的样式*/
+{
+	height:50%;			/*滚动盒子占主窗口的高度比*/
+	width:80%;			/*滚动盒子占主窗口的高度比*/
+	margin:0px auto;	/*外边界设置*/
+	margin-bottom:2%;	/*底外边界设置*/
+	overflow:auto;		/*允许滚动盒子滚动*/
+	border:1px #0f4679 solid;	/*边界样式设置*/
+	font-size:18px;		/*滚动盒子字体大小*/
+	font-weight:bold;	/*字体加粗*/
+}

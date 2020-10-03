@@ -1,0 +1,25 @@
+#mainframe		/*divID，设置整个网页的大小*/
+{
+	height:880px;	/*整个网页的高度*/
+	width:1920px;	/*整个网页的宽度*/
+	
+}
+.top		/*div类，设置logo标题的大小样式*/
+{
+	height:14%;		/*logo标题的高度比*/
+	width:100%;		/*logo标题的高度比*/
+	border-bottom:3px grey solid;	/*logo标题与菜单主窗体的边缘样式*/
+}
+.menu	/*div类，设置主菜单的大小样式*/
+{
+	height:85%;		/*主菜单的高度比*/
+	width:14%;		/*主菜单的高度比*/
+	float:left;		/*主菜单向左贴紧*/
+	border-right:3px grey solid;/*主菜单与主窗体的边缘样式*/
+}
+.main	/*div类，设置主窗体的大小样式*/
+{
+	height:85%;		/*主菜单的高度比*/
+	width:85%;		/*主菜单的高度比*/
+	float:left;		/*主窗体向左贴紧主菜单*/
+}
